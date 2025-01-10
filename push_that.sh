@@ -11,6 +11,5 @@ git add . && git commit -m "$cmsg" && git push origin main
 
 if [ ! -d ".git"=0 ]; then
   echo "Erreur : Ce répertoire n'est pas un dépôt Git."
-else 
-  echo "ok"
+   exit 1
 fi
